@@ -9,8 +9,8 @@
   },
   "destinataire": {
     "nom": "Maison Clémence",
-    "siret": "81234567800017",
-    "tva_intracom": "FR45812345678"
+    "siret": null,
+    "tva_intracom": null
   },
   "devise": "EUR",
   "lignes": [

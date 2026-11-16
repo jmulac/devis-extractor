@@ -9,7 +9,7 @@
   },
   "destinataire": {
     "nom": "Restaurant Le Comptoir",
-    "siret": "75544433300028",
+    "siret": null,
     "tva_intracom": null
   },
   "devise": "EUR",

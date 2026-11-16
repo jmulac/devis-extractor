@@ -9,8 +9,8 @@
   },
   "destinataire": {
     "nom": "Hôtel Les Embruns",
-    "siret": "70012345600011",
-    "tva_intracom": "FR90700123456"
+    "siret": null,
+    "tva_intracom": null
   },
   "devise": "EUR",
   "lignes": [

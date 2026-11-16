@@ -9,8 +9,8 @@
   },
   "destinataire": {
     "nom": "Agence Pixel & Co",
-    "siret": "82266677700013",
-    "tva_intracom": "FR22822666777"
+    "siret": null,
+    "tva_intracom": null
   },
   "devise": "EUR",
   "lignes": [

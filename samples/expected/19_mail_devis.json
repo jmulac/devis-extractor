@@ -9,7 +9,7 @@
   },
   "destinataire": {
     "nom": "SCI Les Tilleuls",
-    "siret": "83322211100015",
+    "siret": null,
     "tva_intracom": null
   },
   "devise": "EUR",

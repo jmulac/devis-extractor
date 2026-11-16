@@ -152,7 +152,8 @@ def make_line(designation, prix, qte, ref=None, ean=None, remise=None, tva="20")
     }
 
 
-def make_devis(numero, d, emetteur, destinataire, lignes, validite_jours=30):
+def make_devis(numero, d, emetteur, destinataire, lignes, validite_jours=30, dest_ids=False):
+    """dest_ids : le modèle de rendu imprime-t-il SIRET/TVA du destinataire ?"""
     total_ht = sum(l["total_ligne_ht"] for l in lignes)
     total_tva = sum(money(l["total_ligne_ht"] * l["taux_tva"] / 100) for l in lignes)
     data = {
@@ -160,8 +161,9 @@ def make_devis(numero, d, emetteur, destinataire, lignes, validite_jours=30):
         "date_devis": d,
         "date_validite": d + timedelta(days=validite_jours) if validite_jours else None,
         "emetteur": {"nom": emetteur.nom, "siret": emetteur.siret, "tva_intracom": emetteur.tva},
-        "destinataire": {"nom": destinataire.nom, "siret": destinataire.siret,
-                         "tva_intracom": destinataire.tva},
+        "destinataire": {"nom": destinataire.nom,
+                         "siret": destinataire.siret if dest_ids else None,
+                         "tva_intracom": destinataire.tva if dest_ids else None},
         "devise": "EUR",
         "lignes": lignes,
         "total_ht": money(total_ht),
@@ -411,7 +413,8 @@ def main():
         for ref, ean, des, prix in pick_catalogue(rng.randint(2, 6)):
             remise = rng.choice([None, None, "5", "10", "15"])
             lignes.append(make_line(des, prix, rng.randint(1, 12), ref, ean, remise))
-        dv = make_devis(f"DEV-2026-{140 + i:04d}", rand_date(), BOUTIQUE, client, lignes)
+        dv = make_devis(f"DEV-2026-{140 + i:04d}", rand_date(), BOUTIQUE, client, lignes,
+                        dest_ids=True)
         name = f"{i:02d}_boutique_devis.pdf"
         render_boutique(dv, BOUTIQUE, client, OUT / name)
         save(name, dv, "pdf", "boutique")
