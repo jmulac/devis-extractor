@@ -1,0 +1,61 @@
+{
+  "numero_devis": "DEV-2026-0144",
+  "date_devis": "2026-11-13",
+  "date_validite": "2026-12-13",
+  "emetteur": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "destinataire": {
+    "nom": "SCI Les Tilleuls",
+    "siret": "83322211100015",
+    "tva_intracom": null
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Buffet bas 2 portes cannage",
+      "reference_emetteur": "MC-RG-041",
+      "ean": "3700123000419",
+      "quantite": "2",
+      "prix_unitaire_ht": "549.00",
+      "remise_pct": "15",
+      "taux_tva": "20",
+      "total_ligne_ht": "933.30"
+    },
+    {
+      "designation": "Suspension lin naturel 45 cm",
+      "reference_emetteur": "MC-LU-020",
+      "ean": "3700123000204",
+      "quantite": "2",
+      "prix_unitaire_ht": "69.90",
+      "remise_pct": "10",
+      "taux_tva": "20",
+      "total_ligne_ht": "125.82"
+    },
+    {
+      "designation": "Chaise bistrot chêne naturel",
+      "reference_emetteur": "MC-CH-001",
+      "ean": "3700123000013",
+      "quantite": "5",
+      "prix_unitaire_ht": "45.00",
+      "remise_pct": "15",
+      "taux_tva": "20",
+      "total_ligne_ht": "191.25"
+    },
+    {
+      "designation": "Tapis jute tressé 160 x 230 cm",
+      "reference_emetteur": "MC-TX-031",
+      "ean": "3700123000310",
+      "quantite": "6",
+      "prix_unitaire_ht": "199.00",
+      "remise_pct": "15",
+      "taux_tva": "20",
+      "total_ligne_ht": "1014.90"
+    }
+  ],
+  "total_ht": "2265.27",
+  "total_tva": "453.05",
+  "total_ttc": "2718.32"
+}

@@ -1,0 +1,61 @@
+{
+  "numero_devis": "D28373",
+  "date_devis": "2026-10-25",
+  "date_validite": "2026-11-24",
+  "emetteur": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "destinataire": {
+    "nom": "Camille Durand",
+    "siret": null,
+    "tva_intracom": null
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Miroir rond laiton 60 cm",
+      "reference_emetteur": "MC-DC-050",
+      "ean": null,
+      "quantite": "4",
+      "prix_unitaire_ht": "89.00",
+      "remise_pct": "10",
+      "taux_tva": "20",
+      "total_ligne_ht": "320.40"
+    },
+    {
+      "designation": "Vase grès émaillé bleu nuit",
+      "reference_emetteur": "MC-DC-051",
+      "ean": null,
+      "quantite": "1",
+      "prix_unitaire_ht": "32.50",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "32.50"
+    },
+    {
+      "designation": "Chaise scandinave velours vert",
+      "reference_emetteur": "MC-CH-002",
+      "ean": null,
+      "quantite": "2",
+      "prix_unitaire_ht": "79.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "158.00"
+    },
+    {
+      "designation": "Chaise bistrot chêne naturel",
+      "reference_emetteur": "MC-CH-001",
+      "ean": null,
+      "quantite": "5",
+      "prix_unitaire_ht": "45.00",
+      "remise_pct": "10",
+      "taux_tva": "20",
+      "total_ligne_ht": "202.50"
+    }
+  ],
+  "total_ht": "713.40",
+  "total_tva": "142.68",
+  "total_ttc": "856.08"
+}

@@ -1,0 +1,41 @@
+{
+  "numero_devis": "Q926/2026",
+  "date_devis": "2026-10-23",
+  "date_validite": null,
+  "emetteur": {
+    "nom": "Pose Express 35",
+    "siret": "90011122300014",
+    "tva_intracom": "FR33900111223"
+  },
+  "destinataire": {
+    "nom": "Lucas Martin",
+    "siret": null,
+    "tva_intracom": null
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Évacuation des emballages",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "2",
+      "prix_unitaire_ht": "35.00",
+      "remise_pct": null,
+      "taux_tva": "10",
+      "total_ligne_ht": "70.00"
+    },
+    {
+      "designation": "Fixation murale étagères et miroirs (par élément)",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "4",
+      "prix_unitaire_ht": "25.00",
+      "remise_pct": null,
+      "taux_tva": "10",
+      "total_ligne_ht": "100.00"
+    }
+  ],
+  "total_ht": "170.00",
+  "total_tva": "17.00",
+  "total_ttc": "187.00"
+}

@@ -1,0 +1,61 @@
+{
+  "numero_devis": "DS-6988",
+  "date_devis": "2026-09-26",
+  "date_validite": "2026-10-11",
+  "emetteur": {
+    "nom": "Déco & Sens SARL",
+    "siret": "79876543200025",
+    "tva_intracom": "FR12798765432"
+  },
+  "destinataire": {
+    "nom": "Agence Pixel & Co",
+    "siret": "82266677700013",
+    "tva_intracom": "FR22822666777"
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Chaise type bistrot en chêne massif",
+      "reference_emetteur": "DS24621",
+      "ean": "3700123000013",
+      "quantite": "6",
+      "prix_unitaire_ht": "47.25",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "283.50"
+    },
+    {
+      "designation": "Buffet cannage 2 portes",
+      "reference_emetteur": "DS10425",
+      "ean": null,
+      "quantite": "8",
+      "prix_unitaire_ht": "505.08",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "4040.64"
+    },
+    {
+      "designation": "Tapis en jute 160x230",
+      "reference_emetteur": "DS75612",
+      "ean": null,
+      "quantite": "5",
+      "prix_unitaire_ht": "208.95",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "1044.75"
+    },
+    {
+      "designation": "Table de repas ronde Ø120",
+      "reference_emetteur": "DS91959",
+      "ean": "3700123000105",
+      "quantite": "2",
+      "prix_unitaire_ht": "408.45",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "816.90"
+    }
+  ],
+  "total_ht": "6185.79",
+  "total_tva": "1237.16",
+  "total_ttc": "7422.95"
+}

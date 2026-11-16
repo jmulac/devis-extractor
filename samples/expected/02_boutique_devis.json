@@ -1,0 +1,81 @@
+{
+  "numero_devis": "DEV-2026-0142",
+  "date_devis": "2026-11-15",
+  "date_validite": "2026-12-15",
+  "emetteur": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "destinataire": {
+    "nom": "Restaurant Le Comptoir",
+    "siret": "75544433300028",
+    "tva_intracom": null
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Chaise scandinave velours vert",
+      "reference_emetteur": "MC-CH-002",
+      "ean": "3700123000020",
+      "quantite": "4",
+      "prix_unitaire_ht": "79.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "316.00"
+    },
+    {
+      "designation": "Buffet bas 2 portes cannage",
+      "reference_emetteur": "MC-RG-041",
+      "ean": "3700123000419",
+      "quantite": "10",
+      "prix_unitaire_ht": "549.00",
+      "remise_pct": "15",
+      "taux_tva": "20",
+      "total_ligne_ht": "4666.50"
+    },
+    {
+      "designation": "Coussin lin lavé 45 x 45 terracotta",
+      "reference_emetteur": "MC-TX-030",
+      "ean": "3700123000303",
+      "quantite": "9",
+      "prix_unitaire_ht": "24.90",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "224.10"
+    },
+    {
+      "designation": "Chaise bistrot chêne naturel",
+      "reference_emetteur": "MC-CH-001",
+      "ean": "3700123000013",
+      "quantite": "12",
+      "prix_unitaire_ht": "45.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "540.00"
+    },
+    {
+      "designation": "Étagère murale métal noir 3 niveaux",
+      "reference_emetteur": "MC-RG-040",
+      "ean": "3700123000402",
+      "quantite": "7",
+      "prix_unitaire_ht": "119.00",
+      "remise_pct": "15",
+      "taux_tva": "20",
+      "total_ligne_ht": "708.05"
+    },
+    {
+      "designation": "Tapis jute tressé 160 x 230 cm",
+      "reference_emetteur": "MC-TX-031",
+      "ean": "3700123000310",
+      "quantite": "8",
+      "prix_unitaire_ht": "199.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "1592.00"
+    }
+  ],
+  "total_ht": "8046.65",
+  "total_tva": "1609.33",
+  "total_ttc": "9655.98"
+}

@@ -1,0 +1,41 @@
+{
+  "numero_devis": "D31798",
+  "date_devis": "2026-10-23",
+  "date_validite": "2026-11-22",
+  "emetteur": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "destinataire": {
+    "nom": "SCI Les Tilleuls",
+    "siret": "83322211100015",
+    "tva_intracom": null
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Chaise bistrot chêne naturel",
+      "reference_emetteur": "MC-CH-001",
+      "ean": null,
+      "quantite": "5",
+      "prix_unitaire_ht": "45.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "225.00"
+    },
+    {
+      "designation": "Miroir rond laiton 60 cm",
+      "reference_emetteur": "MC-DC-050",
+      "ean": null,
+      "quantite": "1",
+      "prix_unitaire_ht": "89.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "89.00"
+    }
+  ],
+  "total_ht": "314.00",
+  "total_tva": "62.80",
+  "total_ttc": "376.80"
+}

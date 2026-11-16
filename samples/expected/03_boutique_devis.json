@@ -1,0 +1,61 @@
+{
+  "numero_devis": "DEV-2026-0143",
+  "date_devis": "2026-10-16",
+  "date_validite": "2026-11-15",
+  "emetteur": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "destinataire": {
+    "nom": "Lucas Martin",
+    "siret": null,
+    "tva_intracom": null
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Chaise bistrot chêne naturel",
+      "reference_emetteur": "MC-CH-001",
+      "ean": "3700123000013",
+      "quantite": "3",
+      "prix_unitaire_ht": "45.00",
+      "remise_pct": "5",
+      "taux_tva": "20",
+      "total_ligne_ht": "128.25"
+    },
+    {
+      "designation": "Table ronde 120 cm pied central",
+      "reference_emetteur": "MC-TB-010",
+      "ean": "3700123000105",
+      "quantite": "6",
+      "prix_unitaire_ht": "389.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "2334.00"
+    },
+    {
+      "designation": "Coussin lin lavé 45 x 45 terracotta",
+      "reference_emetteur": "MC-TX-030",
+      "ean": "3700123000303",
+      "quantite": "2",
+      "prix_unitaire_ht": "24.90",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "49.80"
+    },
+    {
+      "designation": "Lampe à poser céramique blanche",
+      "reference_emetteur": "MC-LU-021",
+      "ean": "3700123000211",
+      "quantite": "2",
+      "prix_unitaire_ht": "54.00",
+      "remise_pct": "10",
+      "taux_tva": "20",
+      "total_ligne_ht": "97.20"
+    }
+  ],
+  "total_ht": "2609.25",
+  "total_tva": "521.85",
+  "total_ttc": "3131.10"
+}

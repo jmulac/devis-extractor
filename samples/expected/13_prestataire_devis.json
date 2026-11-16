@@ -1,0 +1,41 @@
+{
+  "numero_devis": "Q824/2026",
+  "date_devis": "2026-09-08",
+  "date_validite": null,
+  "emetteur": {
+    "nom": "TransMeubles Ouest",
+    "siret": "88822233300019",
+    "tva_intracom": "FR61888222333"
+  },
+  "destinataire": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Assurance ad valorem",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "1",
+      "prix_unitaire_ht": "22.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "22.00"
+    },
+    {
+      "designation": "Livraison Rennes métropole – véhicule 12 m³",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "1",
+      "prix_unitaire_ht": "95.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "95.00"
+    }
+  ],
+  "total_ht": "117.00",
+  "total_tva": "23.40",
+  "total_ttc": "140.40"
+}

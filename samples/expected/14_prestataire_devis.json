@@ -1,0 +1,41 @@
+{
+  "numero_devis": "Q785/2026",
+  "date_devis": "2026-11-02",
+  "date_validite": null,
+  "emetteur": {
+    "nom": "Studio Lumen",
+    "siret": "91233344400022",
+    "tva_intracom": null
+  },
+  "destinataire": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Planche d'ambiance et plan 2D",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "2",
+      "prix_unitaire_ht": "320.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "640.00"
+    },
+    {
+      "designation": "Conseil en décoration – visite et diagnostic",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "3",
+      "prix_unitaire_ht": "150.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "450.00"
+    }
+  ],
+  "total_ht": "1090.00",
+  "total_tva": "218.00",
+  "total_ttc": "1308.00"
+}

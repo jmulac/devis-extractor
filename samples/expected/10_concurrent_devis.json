@@ -1,0 +1,41 @@
+{
+  "numero_devis": "ADL-9757",
+  "date_devis": "2026-09-11",
+  "date_validite": "2026-09-26",
+  "emetteur": {
+    "nom": "L'Atelier du Logis",
+    "siret": "85511122200031",
+    "tva_intracom": "FR78855111222"
+  },
+  "destinataire": {
+    "nom": "Restaurant Le Comptoir",
+    "siret": "75544433300028",
+    "tva_intracom": null
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Tapis en jute 160x230",
+      "reference_emetteur": "ADL74042",
+      "ean": "3700123000310",
+      "quantite": "6",
+      "prix_unitaire_ht": "183.08",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "1098.48"
+    },
+    {
+      "designation": "Miroir laiton diamètre 60",
+      "reference_emetteur": "ADL41385",
+      "ean": "3700123000501",
+      "quantite": "5",
+      "prix_unitaire_ht": "86.33",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "431.65"
+    }
+  ],
+  "total_ht": "1530.13",
+  "total_tva": "306.03",
+  "total_ttc": "1836.16"
+}

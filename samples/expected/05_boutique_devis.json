@@ -1,0 +1,51 @@
+{
+  "numero_devis": "DEV-2026-0145",
+  "date_devis": "2026-10-06",
+  "date_validite": "2026-11-05",
+  "emetteur": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "destinataire": {
+    "nom": "Agence Pixel & Co",
+    "siret": "82266677700013",
+    "tva_intracom": "FR22822666777"
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Vase grès émaillé bleu nuit",
+      "reference_emetteur": "MC-DC-051",
+      "ean": "3700123000518",
+      "quantite": "5",
+      "prix_unitaire_ht": "32.50",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "162.50"
+    },
+    {
+      "designation": "Chaise scandinave velours vert",
+      "reference_emetteur": "MC-CH-002",
+      "ean": "3700123000020",
+      "quantite": "4",
+      "prix_unitaire_ht": "79.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "316.00"
+    },
+    {
+      "designation": "Chaise bistrot chêne naturel",
+      "reference_emetteur": "MC-CH-001",
+      "ean": "3700123000013",
+      "quantite": "7",
+      "prix_unitaire_ht": "45.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "315.00"
+    }
+  ],
+  "total_ht": "793.50",
+  "total_tva": "158.70",
+  "total_ttc": "952.20"
+}

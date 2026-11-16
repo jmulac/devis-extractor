@@ -1,0 +1,51 @@
+{
+  "numero_devis": "Q330/2026",
+  "date_devis": "2026-09-09",
+  "date_validite": "2026-10-09",
+  "emetteur": {
+    "nom": "Pose Express 35",
+    "siret": "90011122300014",
+    "tva_intracom": "FR33900111223"
+  },
+  "destinataire": {
+    "nom": "Hôtel Les Embruns",
+    "siret": "70012345600011",
+    "tva_intracom": "FR90700123456"
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Évacuation des emballages",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "4",
+      "prix_unitaire_ht": "35.00",
+      "remise_pct": null,
+      "taux_tva": "10",
+      "total_ligne_ht": "140.00"
+    },
+    {
+      "designation": "Fixation murale étagères et miroirs (par élément)",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "1",
+      "prix_unitaire_ht": "25.00",
+      "remise_pct": null,
+      "taux_tva": "10",
+      "total_ligne_ht": "25.00"
+    },
+    {
+      "designation": "Montage et pose de mobilier (forfait demi-journée)",
+      "reference_emetteur": null,
+      "ean": null,
+      "quantite": "2",
+      "prix_unitaire_ht": "180.00",
+      "remise_pct": null,
+      "taux_tva": "10",
+      "total_ligne_ht": "360.00"
+    }
+  ],
+  "total_ht": "525.00",
+  "total_tva": "52.50",
+  "total_ttc": "577.50"
+}

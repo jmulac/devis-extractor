@@ -1,0 +1,41 @@
+{
+  "numero_devis": "DEV-2026-0141",
+  "date_devis": "2026-09-14",
+  "date_validite": "2026-10-14",
+  "emetteur": {
+    "nom": "Maison Clémence",
+    "siret": "81234567800017",
+    "tva_intracom": "FR45812345678"
+  },
+  "destinataire": {
+    "nom": "Hôtel Les Embruns",
+    "siret": "70012345600011",
+    "tva_intracom": "FR90700123456"
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Chaise bistrot chêne naturel",
+      "reference_emetteur": "MC-CH-001",
+      "ean": "3700123000013",
+      "quantite": "4",
+      "prix_unitaire_ht": "45.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "180.00"
+    },
+    {
+      "designation": "Suspension lin naturel 45 cm",
+      "reference_emetteur": "MC-LU-020",
+      "ean": "3700123000204",
+      "quantite": "12",
+      "prix_unitaire_ht": "69.90",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "838.80"
+    }
+  ],
+  "total_ht": "1018.80",
+  "total_tva": "203.76",
+  "total_ttc": "1222.56"
+}

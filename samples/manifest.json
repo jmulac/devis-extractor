@@ -1,0 +1,128 @@
+[
+  {
+    "fichier": "01_boutique_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "02_boutique_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "03_boutique_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "04_boutique_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "05_boutique_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "06_boutique_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "07_concurrent_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "concurrent"
+  },
+  {
+    "fichier": "08_concurrent_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "concurrent"
+  },
+  {
+    "fichier": "09_concurrent_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "concurrent"
+  },
+  {
+    "fichier": "10_concurrent_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "concurrent"
+  },
+  {
+    "fichier": "11_concurrent_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "concurrent"
+  },
+  {
+    "fichier": "12_prestataire_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "prestataire"
+  },
+  {
+    "fichier": "13_prestataire_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "prestataire"
+  },
+  {
+    "fichier": "14_prestataire_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "prestataire"
+  },
+  {
+    "fichier": "15_prestataire_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "prestataire"
+  },
+  {
+    "fichier": "16_prestataire_devis.pdf",
+    "attendu": "200",
+    "type": "pdf",
+    "emetteur": "prestataire"
+  },
+  {
+    "fichier": "17_mail_devis.txt",
+    "attendu": "200",
+    "type": "txt",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "18_mail_devis.txt",
+    "attendu": "200",
+    "type": "txt",
+    "emetteur": "concurrent"
+  },
+  {
+    "fichier": "19_mail_devis.txt",
+    "attendu": "200",
+    "type": "txt",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "20_scan_illisible.pdf",
+    "attendu": "422",
+    "type": "pdf-image",
+    "emetteur": "boutique"
+  },
+  {
+    "fichier": "21_cgv_pas_un_devis.pdf",
+    "attendu": "422",
+    "type": "pdf",
+    "emetteur": "boutique"
+  }
+]

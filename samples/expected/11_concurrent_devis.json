@@ -1,0 +1,51 @@
+{
+  "numero_devis": "ADL-7651",
+  "date_devis": "2026-09-26",
+  "date_validite": "2026-11-25",
+  "emetteur": {
+    "nom": "L'Atelier du Logis",
+    "siret": "85511122200031",
+    "tva_intracom": "FR78855111222"
+  },
+  "destinataire": {
+    "nom": "Agence Pixel & Co",
+    "siret": "82266677700013",
+    "tva_intracom": "FR22822666777"
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Miroir laiton diamètre 60",
+      "reference_emetteur": "ADL96474",
+      "ean": "3700123000501",
+      "quantite": "3",
+      "prix_unitaire_ht": "81.88",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "245.64"
+    },
+    {
+      "designation": "Chaise type bistrot en chêne massif",
+      "reference_emetteur": "ADL44741",
+      "ean": "3700123000013",
+      "quantite": "3",
+      "prix_unitaire_ht": "47.25",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "141.75"
+    },
+    {
+      "designation": "Tapis en jute 160x230",
+      "reference_emetteur": "ADL37760",
+      "ean": null,
+      "quantite": "7",
+      "prix_unitaire_ht": "208.95",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "1462.65"
+    }
+  ],
+  "total_ht": "1850.04",
+  "total_tva": "370.01",
+  "total_ttc": "2220.05"
+}

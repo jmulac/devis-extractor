@@ -1,0 +1,61 @@
+{
+  "numero_devis": "DS-4169",
+  "date_devis": "2026-09-18",
+  "date_validite": "2026-10-03",
+  "emetteur": {
+    "nom": "Déco & Sens SARL",
+    "siret": "79876543200025",
+    "tva_intracom": "FR12798765432"
+  },
+  "destinataire": {
+    "nom": "Lucas Martin",
+    "siret": null,
+    "tva_intracom": null
+  },
+  "devise": "EUR",
+  "lignes": [
+    {
+      "designation": "Buffet cannage 2 portes",
+      "reference_emetteur": "DS17331",
+      "ean": "3700123000419",
+      "quantite": "6",
+      "prix_unitaire_ht": "505.08",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "3030.48"
+    },
+    {
+      "designation": "Miroir laiton diamètre 60",
+      "reference_emetteur": "DS62581",
+      "ean": "3700123000501",
+      "quantite": "6",
+      "prix_unitaire_ht": "81.88",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "491.28"
+    },
+    {
+      "designation": "Tapis en jute 160x230",
+      "reference_emetteur": "DS37869",
+      "ean": null,
+      "quantite": "6",
+      "prix_unitaire_ht": "183.08",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "1098.48"
+    },
+    {
+      "designation": "Plaid laine mérinos gris",
+      "reference_emetteur": "X3340",
+      "ean": null,
+      "quantite": "2",
+      "prix_unitaire_ht": "59.00",
+      "remise_pct": null,
+      "taux_tva": "20",
+      "total_ligne_ht": "118.00"
+    }
+  ],
+  "total_ht": "4738.24",
+  "total_tva": "947.66",
+  "total_ttc": "5685.90"
+}
