@@ -12,6 +12,7 @@ dependencies = [
     "openai>=3.51.0",
     "pydantic>=2.14.3",
     "pypdf>=7.1.0",
+    "python-multipart>=0.0.34",
     "uvicorn>=0.54.0",
 ]
 
